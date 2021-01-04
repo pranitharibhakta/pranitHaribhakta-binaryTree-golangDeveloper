@@ -37,10 +37,10 @@ func main() {
 	fmt.Println("\nInOrder traversal-----> ", inOrderTraversal)
 
 	preOrder(binaryTree.root, &preOrderTraversal)
-	fmt.Println("\nPreOrder traversal-----> ", preOrderTraversal)
+	fmt.Println("\nPreOrder traversal----> ", preOrderTraversal)
 
 	postOrder(binaryTree.root, &postOrderTraversal)
-	fmt.Println("\nPostOrder traversal-----> ", postOrderTraversal)
+	fmt.Println("\nPostOrder traversal----> ", postOrderTraversal)
 }
 
 func newNode(value int) *Node {
